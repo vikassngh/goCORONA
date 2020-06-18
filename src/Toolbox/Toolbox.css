@@ -1,0 +1,72 @@
+.toolbox {
+    width: 100%;
+    position: fixed;
+    background: #520646;
+    overflow: hidden;
+    transition: 0s;
+    top: 0;
+    z-index: 99;
+    height: 56px;
+}
+
+.navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.gap {
+    flex: 1;
+}
+.illink{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.brandname :hover, :active,
+.illink:hover,
+.illink:active {
+    color: #ffb013;
+}
+.item-navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.item-navigation li{
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 729px) {
+    .navigation {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding: 0 0.5rem;
+    }
+    .brandname link{
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    .item-navigation li{
+        padding: 0 0.35rem;
+        font-size: 0.5rem;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    .illink{
+        color:white;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+}
